@@ -1,4 +1,6 @@
-# Terraform Base Infrastructure: Azure Hub-and-Spoke
+# Terraform Base Infrastructure: Azure Hub-and-Spoke Topology
+
+<img width="1386" height="737" alt="image" src="https://github.com/user-attachments/assets/f849befc-594d-4f5f-9884-32492f3d5c6a" />
 
 This repository contains a **production-ready** template for provisioning a **Hub-and-Spoke** network topology on Microsoft Azure using **Terraform**. It provides environment-specific configurations for multiple subscriptions (Admin, Dev, Staging, Production) and uses Azure Blob Storage for remote state management.
 
