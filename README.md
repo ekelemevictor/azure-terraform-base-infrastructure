@@ -10,9 +10,8 @@ This repository contains a **production-ready** template for provisioning a **Hu
 4. [Prerequisites](#prerequisites)
 5. [Setup Instructions](#setup-instructions)
 6. [Usage](#usage)
-7. [Next Steps](#next-steps)
-8. [Contributing](#contributing)
-9. [References](#references)
+7. [Contributing](#contributing)
+8. [References](#references)
 ---
 
 ## Overview
@@ -188,18 +187,6 @@ Navigate to each environment folder, update `terraform.tfvars` if needed, then `
 
 ---
 
-## Next Steps
-
-This base infrastructure is just the beginning. You can extend it by:
-
-- **Integrating Private DNS Zones** for internal name resolution.
-- **Adding Key Vault** for secure secrets and certificates.
-- **Incorporating NSGs or Firewall** rules for advanced security posture.
-- **Automating with CI/CD** pipelines (GitHub Actions, Azure DevOps, etc.) for continuous delivery of infrastructure changes.
-- **Monitoring & Logging** (Azure Monitor, Log Analytics) across Hub and Spokes.
-
----
-
 ## Contributing
 
 1. **Fork** the repo and create your feature branch:
@@ -219,10 +206,6 @@ This base infrastructure is just the beginning. You can extend it by:
 ---
 ## References
 
-- [Detailed Blog Post on Building Hub-and-Spoke with Terraform](https://www.thatsreguy.com/p/cfc66cec-6880-4121-aebd-0f3a7b378dfe)
+- [Detailed Blog Post on Building Hub-and-Spoke with Terraform](https://www.thatsreguy.com/azure-projects/building-base-infrastructure-hub-and-spoke-topology/)
 - [Terraform Documentation](https://developer.hashicorp.com/terraform)
 - [Hub-spoke network topology in Azure](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke)
-
----
-
-**Happy Terraforming!** If you have any questions or issues, feel free to open an [issue](../../issues) or reach out via a Pull Request.
